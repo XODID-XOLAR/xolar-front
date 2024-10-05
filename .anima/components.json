@@ -1,0 +1,16 @@
+{
+  "matches": {
+    "3c9add46d90ccdbfe84f8b7522a46ac0d4e9d6e5": {
+      "id": "src/panelhome/IconStackUpSquare/IconStackUpSquare#IconStackUpSquare",
+      "source": { "type": "auto" }
+    },
+    "8649a669b5173e28861f45d83a36be740035206a": {
+      "id": "src/panelhome/IconCoinMono/IconCoinMono#IconCoinMono",
+      "source": { "type": "auto" }
+    },
+    "e281de1470d9bd5998a6805c8b7f866e03a86db3": {
+      "id": "src/test/StatusBar/StatusBar#StatusBar",
+      "source": { "type": "auto" }
+    }
+  }
+}

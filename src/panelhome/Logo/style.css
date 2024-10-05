@@ -1,0 +1,36 @@
+.box {
+  height: 60px;
+  width: 375px;
+}
+
+.box .group {
+  -webkit-backdrop-filter: blur(12px) brightness(100%);
+  backdrop-filter: blur(12px) brightness(100%);
+  background-color: #f9fafbb2;
+  height: 60px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 375px;
+}
+
+.box .framee {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 20px 5px 21px;
+  top: 50px;
+  width: 375px;
+}
+
+.box .layer {
+  height: 20px;
+  position: relative;
+  width: 103.23px;
+}
+
+.box .icon-plus-mono {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
