@@ -1,0 +1,13 @@
+.icon-siren-mono {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.icon-siren-mono .union {
+  height: 17px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 18px;
+}
