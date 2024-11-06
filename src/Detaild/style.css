@@ -6,17 +6,16 @@
   width: 100%;
 }
 
-.detail .div-2 {
+.detail .div {
   background-color: #f8fafb;
-  height: 812px;
+  height: 1121px;
   overflow: hidden;
   position: relative;
   width: 375px;
-  left: 50px;
 }
 
-.detail .overlap-2 {
-  height: 883px;
+.detail .overlap {
+  height: 855px;
   left: 0;
   position: absolute;
   top: 120px;
@@ -32,7 +31,7 @@
 }
 
 .detail .frame {
-  align-items: center;
+  align-items: flex-start;
   box-shadow: 0px -5px 20px #00000005;
   display: inline-flex;
   flex-direction: column;
@@ -111,7 +110,7 @@
 }
 
 .detail .text-wrapper {
-  color: #0d1f26;
+  color: #222222;
   flex: 1;
   font-family: "Pretendard-Bold", Helvetica;
   font-size: 16px;
@@ -128,6 +127,14 @@
   gap: 4px;
   opacity: 0;
   position: relative;
+}
+
+.detail .icon-arrow-right {
+  height: 12px;
+  margin-left: -1818.00px;
+  margin-top: -1283.00px;
+  position: relative;
+  width: 12px;
 }
 
 .detail .crypto-wallet {
@@ -202,7 +209,7 @@
   width: 24px;
 }
 
-.detail .overlap-3 {
+.detail .overlap-group {
   height: 28px;
   left: -1px;
   position: relative;
@@ -211,11 +218,11 @@
 }
 
 .detail .sun-color {
-  height: 20px;
-  left: 6px;
-  position: absolute;
-  top: 0;
-  width: 20px;
+  height: 20px !important;
+  left: 6px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 20px !important;
 }
 
 .detail .cloud-color {
@@ -227,7 +234,7 @@
 }
 
 .detail .highlight-wrapper {
-  background-image: url(https://c.animaapp.com/mh5TR1Fl/img/cloud-bg.svg);
+  background-image: url(./image.svg);
   background-size: 100% 100%;
   height: 15px;
   left: 2px;
@@ -273,9 +280,9 @@
   font-family: "Pretendard-Light", Helvetica;
   font-size: 10px;
   font-weight: 300;
-  letter-spacing: -0.2px;
+  letter-spacing: -0.20px;
   line-height: 12px;
-  margin-top: -1px;
+  margin-top: -1.00px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
@@ -291,12 +298,12 @@
 
 .detail .text-wrapper-3 {
   color: #3a606f;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter-SemiBold", Helvetica;
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 0;
   line-height: 20px;
-  margin-top: -1px;
+  margin-top: -1.00px;
   position: relative;
   text-align: center;
   width: 40px;
@@ -311,19 +318,19 @@
 }
 
 .detail .image {
-  height: 14px;
-  left: 4px;
-  position: absolute;
-  top: 4px;
-  width: 14px;
+  height: 14px !important;
+  left: 4px !important;
+  position: absolute !important;
+  top: 4px !important;
+  width: 14px !important;
 }
 
-.detail .img {
-  height: 22px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 22px;
+.detail .icon-instance {
+  height: 22px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 22px !important;
 }
 
 .detail .overlap-wrapper {
@@ -333,19 +340,19 @@
   width: 24px;
 }
 
-.detail .overlap-4 {
+.detail .overlap-2 {
   height: 26px;
   left: -1px;
   position: relative;
   width: 25px;
 }
 
-.detail .cloud-color-2 {
-  height: 22px;
-  left: 2px;
-  position: absolute;
-  top: 0;
-  width: 23px;
+.detail .cloud-color-instance {
+  height: 22px !important;
+  left: 2px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 23px !important;
 }
 
 .detail .overlap-group-wrapper {
@@ -357,7 +364,7 @@
 }
 
 .detail .img-wrapper {
-  background-image: url(https://c.animaapp.com/mh5TR1Fl/img/cloud-bg-1.svg);
+  background-image: url(./cloud-bg.svg);
   background-size: 100% 100%;
   height: 15px;
   left: 2px;
@@ -375,23 +382,23 @@
 }
 
 .detail .cloud-fill {
-  height: 14px;
-  left: 0;
-  position: absolute;
-  top: 9px;
-  width: 14px;
+  height: 14px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 9px !important;
+  width: 14px !important;
 }
 
-.detail .cloud-fill-2 {
-  height: 9px;
-  left: 12px;
-  position: absolute;
-  top: 2px;
-  width: 9px;
+.detail .cloud-fill-instance {
+  height: 9px !important;
+  left: 12px !important;
+  position: absolute !important;
+  top: 2px !important;
+  width: 9px !important;
 }
 
 .detail .overlap-group-4 {
-  background-image: url(https://c.animaapp.com/mh5TR1Fl/img/cloud-bg-2.svg);
+  background-image: url(./cloud-bg-2.svg);
   background-size: 100% 100%;
   height: 15px;
   left: 2px;
@@ -400,7 +407,7 @@
   width: 20px;
 }
 
-.detail .rectangle-3 {
+.detail .rectangle {
   align-self: stretch;
   background-color: #f7f7f7;
   height: 1px;
@@ -415,7 +422,7 @@
   font-weight: 400;
   letter-spacing: -0.26px;
   line-height: 20px;
-  margin-top: -1px;
+  margin-top: -1.00px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
@@ -471,13 +478,13 @@
   font-weight: 400;
   letter-spacing: 0;
   line-height: 16px;
-  margin-top: -1px;
+  margin-top: -1.00px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
 }
 
-.detail .div-3 {
+.detail .div-2 {
   color: #999999;
   font-family: "Pretendard-Regular", Helvetica;
   font-size: 11px;
@@ -498,6 +505,14 @@
   line-height: 12px;
 }
 
+.detail .img {
+  height: 12px;
+  margin-left: -1818.00px;
+  margin-top: -1520.00px;
+  position: relative;
+  width: 12px;
+}
+
 .detail .text-wrapper-9 {
   color: #0d1f26;
   font-family: "Pretendard-Bold", Helvetica;
@@ -505,7 +520,7 @@
   font-weight: 700;
   letter-spacing: -0.26px;
   line-height: 20px;
-  margin-top: -1px;
+  margin-top: -1.00px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
@@ -513,13 +528,13 @@
 
 .detail .hue-slider {
   align-self: stretch;
-  height: 56px;
+  height: 48px;
   position: relative;
   width: 100%;
 }
 
 .detail .group-2 {
-  height: 56px;
+  height: 48px;
   width: 302px;
 }
 
@@ -533,8 +548,8 @@
 }
 
 .detail .group-3 {
-  height: 62.5px;
-  margin-top: -11.25px;
+  height: 55px;
+  margin-top: -11.50px;
   position: relative;
   width: 302px;
 }
@@ -557,7 +572,7 @@
   font-weight: 300;
   letter-spacing: 0;
   line-height: 12px;
-  margin-top: -1px;
+  margin-top: -1.00px;
   position: relative;
   text-align: center;
   width: 60px;
@@ -577,11 +592,17 @@
 
 .detail .image-2 {
   align-self: stretch;
-  background-color: #f7f7f7;
-  border-radius: 8px;
-  height: 200px;
+  height: 180px;
   position: relative;
   width: 100%;
+}
+
+.detail .icon-arrow-right-2 {
+  height: 12px;
+  margin-left: -1818.00px;
+  margin-top: -1925.00px;
+  position: relative;
+  width: 12px;
 }
 
 .detail .frame-15 {
@@ -616,67 +637,16 @@
   width: fit-content;
 }
 
-.detail .element-kwh {
-  color: transparent;
-  font-family: "Pretendard-SemiBold", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: 20px;
-  position: relative;
-  width: fit-content;
-}
-
-.detail .text-wrapper-13 {
-  color: #0d1f26;
-  font-weight: 600;
-  line-height: 32px;
-}
-
-.detail .text-wrapper-14 {
-  color: #0d1f26;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 36px;
-}
-
-.detail .text-wrapper-15 {
-  color: #999999;
-  font-family: "Pretendard-Regular", Helvetica;
-  font-size: 13px;
-  line-height: 36px;
-}
-
-.detail .element-3 {
-  color: transparent;
-  font-family: "Pretendard-Bold", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: 20px;
-  position: relative;
-  width: fit-content;
-}
-
-.detail .text-wrapper-16 {
-  color: #0d1f26;
-  font-weight: 700;
-  line-height: 32px;
-}
-
-.detail .text-wrapper-17 {
-  color: #0d1f26;
-  font-family: "Pretendard-SemiBold", Helvetica;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 36px;
+.detail .icon-instance-node {
+  flex: 0 0 auto !important;
+  position: relative !important;
 }
 
 .detail .backgorund {
-  align-items: center;
   height: 812px;
-  left: 0;
-  top: 0;
+  left: -188px;
+  position: fixed;
+  top: -560px;
   width: 375px;
 }
 
@@ -710,8 +680,8 @@
   width: 20px !important;
 }
 
-.detail .text-wrapper-18 {
-  color: #0d1f26;
+.detail .text-wrapper-13 {
+  color: #222222;
   font-family: "Pretendard-Bold", Helvetica;
   font-size: 16px;
   font-weight: 700;
@@ -724,24 +694,90 @@
   white-space: nowrap;
 }
 
-.detail .status-bar-instance {
-  -webkit-backdrop-filter: blur(8px) brightness(100%) !important;
-  backdrop-filter: blur(8px) brightness(100%) !important;
-  background-color: #f9fafbb2 !important;
-  left: 0 !important;
-  position: fixed !important;
-  top: 0 !important;
+.detail .status-bar {
+  -webkit-backdrop-filter: blur(8px) brightness(100%);
+  backdrop-filter: blur(8px) brightness(100%);
+  background-color: #f9fafbb2;
+  height: 44px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 375px;
 }
 
-.detail .design-component-instance-node {
-  background-color: #0d1f26 !important;
+.detail .battery {
+  height: 13px;
+  left: 327px;
+  position: absolute;
+  top: 15px;
+  width: 24px;
+}
+
+.detail .overlap-group-6 {
+  background-image: url(./outline.svg);
+  background-size: 100% 100%;
+  height: 13px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 22px;
+}
+
+.detail .rectangle-2 {
+  background-color: #0d1f26;
+  border-radius: 4px 0px 0px 4px;
+  height: 13px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.detail .percentage-instance {
+  height: 7px !important;
+  left: 5px !important;
+  position: absolute !important;
+  top: 3px !important;
+  width: 12px !important;
+}
+
+.detail .battery-end {
+  height: 4px !important;
+  left: 23px !important;
+  position: absolute !important;
+  top: 5px !important;
+  width: 1px !important;
+}
+
+.detail .wifi-instance {
+  height: 11px !important;
+  left: 306px !important;
+  position: absolute !important;
+  top: 15px !important;
+  width: 16px !important;
+}
+
+.detail .mobile-signal {
+  height: 12px !important;
+  left: 284px !important;
+  position: absolute !important;
+  top: 15px !important;
+  width: 17px !important;
+}
+
+.detail .time-instance {
+  height: 11px !important;
+  left: 41px !important;
+  position: absolute !important;
+  top: 16px !important;
+  width: 29px !important;
 }
 
 .detail .group-5 {
   height: 98px;
   left: 0;
   position: fixed;
-  top: 714px;
+  top: 1023px;
   width: 375px;
 }
 
@@ -768,8 +804,7 @@
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
-  flex-wrap: wrap;
-  gap: 8px 8px;
+  gap: 8px;
   position: relative;
   width: 334px;
 }
@@ -794,7 +829,7 @@
   justify-content: center;
   padding: 14px 36px;
   position: relative;
-  width: 375px;
+  width: 334px;
 }
 
 .detail .icon-warning {
@@ -803,14 +838,14 @@
   width: 16px !important;
 }
 
-.detail .text-wrapper-19 {
+.detail .text-wrapper-14 {
   color: #ffffff;
   font-family: "Pretendard-Bold", Helvetica;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0;
   line-height: 20px;
-  margin-top: -1px;
+  margin-top: -1.00px;
   position: relative;
   text-align: center;
   white-space: nowrap;
@@ -826,269 +861,12 @@
   width: 375px;
 }
 
-.detail .div-4 {
-  background-color: #0d1f26;
+.detail .group-10 {
+  background-color: #222222;
   border-radius: 100px;
   height: 5px;
   left: 121px;
   position: relative;
   top: 21px;
   width: 134px;
-}
-
-.detail .rectangle-4 {
-  background-color: #000000;
-  height: 812px;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0.6;
-  position: fixed;
-  top: 0;
-  width: 375px;
-}
-
-.detail .group-10 {
-  height: 439px;
-  align-items: center;
-  position: fixed;
-  top: 373px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 375px;
-}
-
-.detail .frame-20 {
-  align-items: center;
-  background-color: #ffffff;
-  border: 1px solid;
-  border-color: #f1f1f1;
-  border-radius: 20px 20px 0px 0px;
-  display: inline-flex;
-  flex-direction: column;
-  gap: 12px;
-  padding: 12px 0px 0px;
-  position: relative;
-  width: 375px;
-}
-
-.detail .drawer-handle {
-  background-color: #e7e7e7;
-  border-radius: 100px;
-  height: 5px;
-  position: relative;
-  width: 60px;
-}
-
-.detail .frame-21 {
-  align-items: flex-start;
-  display: inline-flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 20px;
-  position: relative;
-  width: 375px;
-}
-
-.detail .frame-22 {
-  align-items: flex-start;
-  display: flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 8px;
-  padding: 0px 20px 0px 15px;
-  position: relative;
-  width: 375px;
-}
-
-.detail .text {
-  color: #0d1f26;
-  font-family: "Pretendard-Bold", Helvetica;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 32px;
-  margin-top: -1px;
-  position: relative;
-  white-space: nowrap;
-  width: fit-content;
-}
-
-.detail .text-2 {
-  color: #999999;
-  font-family: "Pretendard-Light", Helvetica;
-  font-size: 13px;
-  font-weight: 300;
-  letter-spacing: 0;
-  line-height: 20px;
-  position: relative;
-  width: 334px;
-}
-
-.detail .frame-23 {
-  align-items: flex-start;
-  background-color: #f7f7f7;
-  border: 1px solid;
-  border-color: #f1f1f1;
-  border-radius: 8px;
-  display: flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 4px;
-  padding: 12px 8px;
-  position: relative;
-  width: 334px;
-}
-
-.detail .div-5 {
-  color: #0d1f26;
-  font-family: "Pretendard-Light", Helvetica;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: 20px;
-  margin-top: -1px;
-  position: relative;
-  width: 310px;
-}
-
-.detail .div-6 {
-  color: #0d1f26;
-  font-family: "Pretendard-Light", Helvetica;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: 20px;
-  position: relative;
-  width: 310px;
-}
-
-.detail .frame-24 {
-  align-items: flex-start;
-  display: flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  position: relative;
-  width: 375px;
-}
-
-.detail .frame-25 {
-  align-items: flex-start;
-  align-self: stretch;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-color: #f1f1f1;
-  display: flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 10px;
-  padding: 16px 20px 16px 21px;
-  position: relative;
-  width: 100%;
-}
-
-.detail .frame-26 {
-  align-items: center;
-  display: inline-flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 24px;
-  position: relative;
-}
-
-.detail .frame-27 {
-  align-items: flex-start;
-  display: inline-flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 12px;
-  position: relative;
-}
-
-.detail .frame-28 {
-  align-items: center;
-  display: inline-flex;
-  flex: 0 0 auto;
-  gap: 16px;
-  position: relative;
-}
-
-.detail .icon-instance-node {
-  height: 20px !important;
-  position: relative !important;
-  width: 20px !important;
-}
-
-.detail .text-wrapper-20 {
-  color: #666666;
-  font-family: "Pretendard-Regular", Helvetica;
-  font-size: 13px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: 20px;
-  margin-top: -1px;
-  position: relative;
-  white-space: nowrap;
-  width: fit-content;
-}
-
-.detail .frame-29 {
-  align-items: flex-start;
-  align-self: stretch;
-  display: flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 10px;
-  padding: 16px 20px 16px 21px;
-  position: relative;
-  width: 100%;
-}
-
-.detail .group-11 {
-  height: 64px;
-  position: relative;
-  width: 375px;
-}
-
-.detail .frame-30 {
-  align-items: flex-start;
-  box-shadow: 0px -5px 20px #00000005;
-  display: inline-flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 8px 20px 8px 21px;
-  position: relative;
-}
-
-.detail .frame-31 {
-  align-items: center;
-  background-color: #0d1f26;
-  border-radius: 12px;
-  box-shadow: var(--gradation-shadow);
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  padding: 14px 36px;
-  position: relative;
-  width: 265px;
-}
-
-.detail .group-12 {
-  background-color: #ffffff;
-  height: 34px;
-  position: relative;
-  width: 375px;
-}
-
-.detail .group-13 {
-  height: 34px;
-}
-
-.detail .home-indicator-wrapper {
-  background-image: url(https://c.animaapp.com/mh5TR1Fl/img/rectangle-284@2x.png);
-  background-size: 100% 100%;
-  height: 34px;
-  left: -1930px;
-  position: relative;
-  top: -1557px;
-  width: 375px;
 }

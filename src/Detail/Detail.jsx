@@ -1,15 +1,14 @@
-import React from 'react';
-import { StatusBar } from 'src/test/StatusBar/StatusBar';
-import Kwh from './1-129-kwh.svg';
-import Kwh1 from './603-kwh.svg';
-import backgorund from './backgorund.png';
-import image3 from './image-3.svg';
-import './style.css';
+import React from "react";
+
+import Kwh from "./1-129-kwh.svg";
+import Kwh1 from "./603-kwh.svg";
+import backgorund from "./backgorund.png";
+import image3 from "./image-3.svg";
+import "./style.css";
 
 export const Detail = () => {
   return (
     <div className="detail">
-      <StatusBar background="off" text="Black" />
       <div className="weather-info">
         <h2>오늘 날씨</h2>
         <div className="weather-forecast">

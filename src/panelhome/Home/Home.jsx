@@ -20,8 +20,19 @@ import layer1 from "./layer-1.svg";
 import sunColor from "./sun-color.svg";
 import text from "./text.svg";
 import "./style.css";
+import { useNavigate } from "react-router-dom"; // useNavigate 훅 import
+
 
 export const Home = () => {
+
+  const navigate = useNavigate(); // useNavigate 훅 사용
+
+  // 클릭 이벤트 핸들러 함수
+  const handleNavigateToDetail = () => {
+    navigate("/panel-main"); // 경로를 "/panel-main"으로 변경
+  };
+
+
   return (
     <div className="home">
       <div className="div">
@@ -43,7 +54,7 @@ export const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="crypto-wallet">
+            <div className="crypto-wallet" onClick={handleNavigateToDetail}>
               <div className="rectangle-wrapper">
                 <div className="rectangle" />
               </div>
@@ -91,7 +102,7 @@ export const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="crypto-wallet">
+            <div className="crypto-wallet" onClick={handleNavigateToDetail}>
               <div className="rectangle-wrapper">
                 <div className="rectangle" />
               </div>
@@ -139,7 +150,7 @@ export const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="crypto-wallet">
+            <div className="crypto-wallet" onClick={handleNavigateToDetail}>
               <div className="rectangle-wrapper">
                 <div className="rectangle" />
               </div>
@@ -188,7 +199,7 @@ export const Home = () => {
               </div>
             </div>
             {/* 청주시 */}
-            <div className="crypto-wallet">
+            <div className="crypto-wallet" onClick={handleNavigateToDetail}>
               <div className="rectangle-wrapper">
                 <div className="rectangle" />
               </div>

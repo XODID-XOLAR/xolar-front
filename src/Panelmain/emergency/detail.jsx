@@ -1,11 +1,90 @@
 import React from "react";
 import { IconSirenMono } from "./icons/IconSirenMono";
 import { IconSnowMono } from "./icons/IconSnowMono";
-import { IconWarningTriangleMono1 } from "./icons/iconWarningTriangleMono1";
 import { IconWindMono } from "./icons/iconWindMono";
 import "./style.css";
 
+
 export const Detail = () => {
+  const handleStrongWindEmergency = async () => {
+    try {
+      const response = await fetch(
+        "https://api.xolar.co.kr/solar-panels/1/strong-wind",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      if (response.ok) {
+        const textData = await response.text();
+        console.log("응답 텍스트:", textData);
+        alert(textData);
+      } else {
+        console.error("HTTP 오류:", response.status);
+        alert("오류가 발생했습니다: " + response.status);
+      }
+    } catch (error) {
+      console.error("오류 발생:", error);
+      alert("오류 발생: " + error.message);
+    }
+  };
+
+  const handleHeavySnowEmergency = async () => {
+    try {
+      const response = await fetch(
+        "https://api.xolar.co.kr/solar-panels/1/heavy-snow",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      if (response.ok) {
+        const textData = await response.text();
+        console.log("응답 텍스트:", textData);
+        alert(textData);
+      } else {
+        console.error("HTTP 오류:", response.status);
+        alert("오류가 발생했습니다: " + response.status);
+      }
+    } catch (error) {
+      console.error("오류 발생:", error);
+      alert("오류 발생: " + error.message);
+    }
+  };
+
+  const handleResetEmergency = async () => {
+    try {
+      const response = await fetch(
+        "https://api.xolar.co.kr/solar-panels/1/normal",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      if (response.ok) {
+        const textData = await response.text();
+        console.log("응답 텍스트:", textData);
+        alert(textData);
+      } else {
+        console.error("HTTP 오류:", response.status);
+        alert("오류가 발생했습니다: " + response.status);
+      }
+    } catch (error) {
+      console.error("오류 발생:", error);
+      alert("오류 발생: " + error.message);
+    }
+  };
+
+  // JSX 반환
   return (
     <div className="detail">
       <div className="div-2">
@@ -22,32 +101,8 @@ export const Detail = () => {
         alt="Backgorund"
         src="https://c.animaapp.com/mh5TR1Fl/img/backgorund-1.png"
       />
-
-      <div className="group-5">
-        <div className="group-6">
-          <div className="frame-17">
-            <div className="frame-18">
-              <div className="group-7">
-                <div className="group-8">
-                  <div className="frame-19">
-                    <IconWarningTriangleMono1 className="icon-warning" />
-                    <div className="text-wrapper-19">비상 정지</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="group-9">
-          <div className="div-4" />
-        </div>
-      </div>
-      <img
-        className="backgorund"
-        alt="Backgorund"
-        src="https://c.animaapp.com/mh5TR1Fl/img/backgorund-1.png"
-      />
       <div className="rectangle-4" />
+      --
       <div className="group-10">
         <div className="frame-20">
           <div className="drawer-handle" />
@@ -72,7 +127,7 @@ export const Detail = () => {
                 </div>
               </div>
               <div className="frame-24">
-                <div className="frame-25">
+                <div className="frame-25" onClick={handleStrongWindEmergency}>
                   <div className="frame-26">
                     <div className="frame-27">
                       <div className="frame-28">
@@ -86,7 +141,7 @@ export const Detail = () => {
                     </div>
                   </div>
                 </div>
-                <div className="frame-25">
+                <div className="frame-25" onClick={handleHeavySnowEmergency}>
                   <div className="frame-26">
                     <div className="frame-27">
                       <div className="frame-28">
@@ -100,7 +155,7 @@ export const Detail = () => {
                     </div>
                   </div>
                 </div>
-                <div className="frame-29">
+                <div className="frame-29" onClick={handleResetEmergency}>
                   <div className="frame-26">
                     <div className="frame-27">
                       <div className="frame-28">
