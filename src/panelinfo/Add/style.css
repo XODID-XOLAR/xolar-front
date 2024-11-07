@@ -1,4 +1,4 @@
-.add {
+.add-add {
   background-color: #f9fafb;
   display: flex;
   flex-direction: row;
@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.add .div {
+.add-div {
   background-color: #f9fafb;
   height: 812px;
   overflow: hidden;
@@ -14,7 +14,7 @@
   width: 375px;
 }
 
-.add .group {
+.add-group {
   height: 356px;
   left: 21px;
   position: absolute;
@@ -22,7 +22,7 @@
   width: 334px;
 }
 
-.add .frame {
+.add-frame {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@
   width: 334px;
 }
 
-.add .frame-2 {
+.add-frame-2 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -42,12 +42,12 @@
   width: 100%;
 }
 
-.add .text {
+.add-text {
   color: #0d1f26;
   font-family: var(--typo-36-font-family);
-  font-size: var(--typo-36-font-size);
+  font-size: 24px; /* 원하는 크기로 설정 */
   font-style: var(--typo-36-font-style);
-  font-weight: var(--typo-36-font-weight);
+  font-weight: bold; /* 텍스트를 볼드로 설정 */
   letter-spacing: var(--typo-36-letter-spacing);
   line-height: var(--typo-36-line-height);
   margin-top: -1px;
@@ -56,7 +56,7 @@
   width: fit-content;
 }
 
-.add .text-wrapper {
+.add-text-wrapper {
   color: #999999;
   font-family: "Pretendard-Light", Helvetica;
   font-size: 13px;
@@ -67,7 +67,7 @@
   width: 334px;
 }
 
-.add .frame-3 {
+.add-frame-3 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -76,7 +76,7 @@
   position: relative;
 }
 
-.add .frame-4 {
+.add-frame-4 {
   align-items: center;
   display: flex;
   flex: 0 0 auto;
@@ -87,7 +87,7 @@
   width: 334px;
 }
 
-.add .text-wrapper-2 {
+.add-text-wrapper-2 {
   align-self: stretch;
   color: #545454;
   font-family: "Pretendard-SemiBold", Helvetica;
@@ -99,7 +99,7 @@
   position: relative;
 }
 
-.add .frame-wrapper {
+.add-frame-wrapper {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -110,7 +110,7 @@
   width: 100%;
 }
 
-.add .frame-5 {
+.add-frame-5 {
   align-items: center;
   align-self: stretch;
   background-color: #f9fdff;
@@ -125,7 +125,7 @@
   width: 100%;
 }
 
-.add .text-wrapper-3 {
+.add-text-wrapper-3 {
   color: #0d1f26;
   font-family: "Pretendard-Light", Helvetica;
   font-size: 13px;
@@ -138,13 +138,13 @@
   width: fit-content;
 }
 
-.add .icon-arrow-right {
+.add-icon-arrow-right {
   height: 16px;
   position: relative;
   width: 16px;
 }
 
-.add .frame-6 {
+.add-frame-6 {
   align-items: center;
   align-self: stretch;
   background-color: #f9fdff;
@@ -159,7 +159,7 @@
   width: 100%;
 }
 
-.add .p {
+.add-p {
   color: #999999;
   font-family: "Pretendard-Light", Helvetica;
   font-size: 13px;
@@ -172,7 +172,7 @@
   width: fit-content;
 }
 
-.add .frame-7 {
+.add-frame-7 {
   align-items: center;
   align-self: stretch;
   background-color: #f9fdff;
@@ -187,7 +187,7 @@
   width: 100%;
 }
 
-.add .text-wrapper-4 {
+.add-text-wrapper-4 {
   color: #999999;
   flex: 1;
   font-family: "Pretendard-Light", Helvetica;
@@ -199,32 +199,15 @@
   position: relative;
 }
 
-.add .rectangle-wrapper {
-  height: 20px;
-  position: relative;
-  width: 20px;
-}
-
-.add .rectangle {
-  background-blend-mode: exclusion;
-  height: 12px;
-  left: 4px;
-  object-fit: cover;
-  position: absolute;
-  top: 4px;
-  width: 12px;
-}
-
-.add .group-wrapper {
+.add-group-wrapper {
   height: 56px;
   left: 300px;
-
   top: 30px;
   width: 375px;
   align-items: center;
 }
 
-.add .icon-arrow-left-wrapper {
+.add-icon-arrow-left-wrapper {
   -webkit-backdrop-filter: blur(8px) brightness(100%);
   backdrop-filter: blur(8px) brightness(100%);
   background-color: #f9fafbb2;
@@ -232,15 +215,15 @@
   position: relative;
 }
 
-.add .icon-arrow-left {
+.add-icon-arrow-left {
   height: 20px;
   left: 16px;
   position: absolute;
-  top: 18px;
+  top: 50px;
   width: 20px;
 }
 
-.add .group-2 {
+.add-group-2 {
   height: 98px;
   left: 0;
   top: 900px;
@@ -249,7 +232,7 @@
   align-items: center;
 }
 
-.add .div-wrapper {
+.add-div-wrapper {
   background-color: #fffffff5;
   height: 34px;
   left: 0;
@@ -258,7 +241,7 @@
   width: 375px;
 }
 
-.add .group-4 {
+.add-group-4 {
   height: 64px;
   left: 0;
   position: absolute;
@@ -268,7 +251,7 @@
   align-items: center;
 }
 
-.add .frame-8 {
+.add-frame-8 {
   align-items: flex-start;
   background-color: #fffffff5;
   box-shadow: 0px -5px 20px #00000005;
@@ -279,7 +262,7 @@
   position: relative;
 }
 
-.add .frame-9 {
+.add-frame-9 {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -288,17 +271,17 @@
   width: 334px;
 }
 
-.add .group-5 {
+.add-group-5 {
   height: 48px;
   position: relative;
   width: 334px;
 }
 
-.add .group-6 {
+.add-group-6 {
   height: 48px;
 }
 
-.add .frame-10 {
+.add-frame-10 {
   align-items: center;
   background-color: #0d1f26;
   border-radius: 12px;
@@ -311,7 +294,7 @@
   width: 265px;
 }
 
-.add .text-wrapper-5 {
+.add-text-wrapper-5 {
   color: #ffffff;
   font-family: "Pretendard-Bold", Helvetica;
   font-size: 14px;
@@ -325,7 +308,7 @@
   width: fit-content;
 }
 
-.add .backgorund {
+.add-backgorund {
   height: 812px;
   left: -188px;
   position: fixed;

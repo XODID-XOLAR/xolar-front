@@ -1,4 +1,4 @@
-.login {
+.login-custom {
   background-color: transparent;
   display: flex;
   flex-direction: row;
@@ -7,16 +7,24 @@
   height: 100%;
 }
 
-.login .div {
+.login-custom .custom-div {
   background-image: url(./login.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 728px;
   position: relative;
   width: 375px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 4%,
+      rgba(123, 218, 254, 0.4) 87%
+    ),
+    linear-gradient(0deg, rgba(5, 10, 21, 0.4) 0%, rgba(5, 10, 21, 0.4) 100%),
+    url(./login.png) lightgray 50% / cover no-repeat;
+  background-blend-mode: normal, darken, normal;
 }
 
-.login .group {
+.login-custom .custom-group {
   height: 34px;
   left: 0;
   position: absolute;
@@ -24,7 +32,7 @@
   width: 375px;
 }
 
-.login .group-2 {
+.login-custom .custom-group-2 {
   background-color: #ffffff;
   border-radius: 100px;
   height: 5px;
@@ -34,7 +42,7 @@
   width: 134px;
 }
 
-.login .frame {
+.login-custom .custom-frame {
   align-items: center;
   background-color: #0d1f26;
   border-radius: 32px;
@@ -47,13 +55,13 @@
   top: 436px;
 }
 
-.login .svg {
+.login-custom .custom-svg {
   height: 20px !important;
   position: relative !important;
   width: 20px !important;
 }
 
-.login .text-wrapper {
+.login-custom .custom-text-wrapper {
   color: #ffffff;
   font-family: "Pretendard-Regular", Helvetica;
   font-size: 12px;
@@ -66,7 +74,7 @@
   width: fit-content;
 }
 
-.login .frame-2 {
+.login-custom .custom-frame-2 {
   align-items: center;
   display: inline-flex;
   flex-direction: column;
@@ -76,7 +84,7 @@
   top: 600px;
 }
 
-.login .p {
+.login-custom .custom-p {
   color: #ffffff;
   font-family: var(--mobile-mobile-bodys-m-body-SM-font-family);
   font-size: var(--mobile-mobile-bodys-m-body-SM-font-size);
@@ -92,7 +100,7 @@
   width: fit-content;
 }
 
-.login .frame-wrapper {
+.login-custom .custom-frame-wrapper {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -101,7 +109,7 @@
   position: relative;
 }
 
-.login .frame-3 {
+.login-custom .custom-frame-3 {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
@@ -109,12 +117,12 @@
   position: relative;
 }
 
-.login .frame-4 {
+.login-custom .custom-frame-4 {
   flex: 0 0 auto;
   position: relative;
 }
 
-.login .frame-5 {
+.login-custom .custom-frame-5 {
   align-items: center;
   display: inline-flex;
   flex-direction: column;
@@ -124,13 +132,13 @@
   top: 336px;
 }
 
-.login .layer {
+.login-custom .custom-layer {
   height: 40px !important;
   position: relative !important;
   width: 206.47px !important;
 }
 
-.login .text-wrapper-2 {
+.login-custom .custom-text-wrapper-2 {
   color: #f3f3f3;
   font-family: "Pretendard-Regular", Helvetica;
   font-size: 13px;
@@ -143,12 +151,12 @@
   width: 334px;
 }
 
-.login .status-bar-instance {
+.login-custom .custom-status-bar-instance {
   left: 0 !important;
   position: fixed !important;
   top: 0 !important;
 }
 
-.login .design-component-instance-node {
+.login-custom .custom-design-component-instance-node {
   background-image: url(./outline.svg) !important;
 }
